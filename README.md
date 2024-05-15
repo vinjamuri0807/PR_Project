@@ -23,10 +23,14 @@ The FER-2013 dataset is preprocessed, and two CNN models (VGG and MobileNet) are
 ****Results and Comparison****
 
 Sequential CNN Model : Showed significant overfitting with training accuracy reaching 80% but validation accuracy stalling at 60%.
+
 MobileNet : Demonstrated better balance, performing well in recognizing 'happy' emotions but struggling with 'neutral'.
+
 VGG : Excelled with high accuracy (85-86%) for both training and validation, indicating good generalization and minimal overfitting.
 
 ****Conclusion****
 VGG: The most reliable model, suitable for precise emotion recognition.
+
 MobileNet: Balances efficiency and performance, with room for improvement in generalization.
+
 Sequential CNN: Needs optimization to address overfitting issues.
