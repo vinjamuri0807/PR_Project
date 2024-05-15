@@ -1,12 +1,12 @@
 ******Facial Emotion Recognition using Deep Learning******
 
-****Introduction****
+****Introduction**** : 
 This project develops a facial emotion recognition system using Convolutional Neural Networks (CNNs) to process human facial images, extracting and interpreting features for applications like identity verification and emotion classification.
 
-****Dataset and Related Work****
+****Dataset and Related Work**** :
 The FER-2013 dataset, containing 35,887 grayscale images categorized into seven emotions, is used. Previous research has focused on ConvNets like VGG and ResNet to enhance emotion classification, using techniques such as transfer learning and data augmentation to address challenges like imbalanced data.
 
-****Methodology****
+****Methodology**** :
 
 **Initial Model**
 A sequential CNN architecture achieved a test accuracy of 56% but showed overfitting.
